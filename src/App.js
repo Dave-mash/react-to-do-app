@@ -1,11 +1,12 @@
+import AppRouter from './routers/AppRouter';
+
 import './App.css';
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <h1>React Twitter clone</h1>
+      <AppRouter />
     </div>
   );
 }
-
-export default App;
